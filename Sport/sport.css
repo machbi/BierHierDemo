@@ -1,0 +1,38 @@
+body {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+#container {
+  margin-left: 50px;
+}
+
+#gridcontainer {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 200px);
+}
+
+.griditem {
+  height: 147px;
+  width: 220px;
+}
+
+#sportfototekst {
+  display: flex;
+}
+
+#sporttekst {
+  width: 500px;
+  padding-left: 50px;
+}
+
+.linkitem {
+  width: 250px;
+}
+
+#links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
