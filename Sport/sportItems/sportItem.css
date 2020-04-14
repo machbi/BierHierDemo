@@ -1,0 +1,23 @@
+body {
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+#kopteksten {
+  display: flex;
+  justify-content: space-around;
+}
+
+#afbeeldingen {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#teksten {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+}
+
+.tekstitem {
+  width: 220px;
+}
