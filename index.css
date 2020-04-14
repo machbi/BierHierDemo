@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Baloo Tamma 2";
+}
+li a{
+    text-decoration: none;
+}
+article{
+    display: inline-block;
+    width: 30%;
+    margin-left: 50px;
+}
