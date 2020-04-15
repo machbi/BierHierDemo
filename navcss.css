@@ -25,3 +25,22 @@ nav {
 .navitem:active {
   color: #525252;
 }
+
+footer {
+  height: 250 px;
+  background-color: #24292e;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.footitem {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.footitem:hover {
+  color: gray;
+  transition: 0.2s;
+}
