@@ -23,8 +23,9 @@ body {
 }
 
 #sporttekst {
-  width: 500px;
+  width: 350px;
   padding-left: 50px;
+  line-height: 18px;
 }
 
 .linkitem {
@@ -50,4 +51,8 @@ img:hover {
 img:active {
   height: 99%;
   width: 99%;
+}
+
+.lineheight {
+  line-height: 18px;
 }

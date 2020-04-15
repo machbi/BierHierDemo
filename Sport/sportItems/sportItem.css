@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   margin-top: 15px;
+  line-height: 18px;
 }
 
 .tekstitem {
