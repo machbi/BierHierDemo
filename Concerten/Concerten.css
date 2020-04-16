@@ -1,0 +1,44 @@
+body {
+  font-family: "Baloo Tamma 2", cursive;
+  margin: 0px;
+}
+
+h1 {
+  margin-left: 77%;
+}
+
+#fotos {
+  display: flex;
+  justify-content: space-evenly;
+  object-fit: none;
+}
+
+p {
+  margin-top: 0px;
+}
+
+#meer {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  justify-content: space-evenly;
+}
+
+.fotoitem {
+  margin-left: 35px;
+  transition: all 0.2s;
+}
+
+.fotoitem:hover {
+  transform: translateY(-3px) scale(1.1);
+  opacity: 0.8;
+}
+
+.fotoitem:active {
+  height: 99%;
+  width: 99%;
+}
+
+h2 {
+  padding-top: 25px;
+}
