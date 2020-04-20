@@ -1,0 +1,70 @@
+body {
+  font-family: "Baloo Tamma 2", cursive;
+  margin: 0px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#meer {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  justify-content: space-evenly;
+}
+
+.fotoitem {
+  margin-left: 35px;
+  transition: all 0.2s;
+}
+
+.fotoitem:hover {
+  transform: translateY(-3px) scale(1.1);
+  opacity: 0.8;
+}
+
+h1 {
+  margin-left: 3%;
+}
+
+h2 {
+  padding-top: 25px;
+}
+
+#fotos {
+  display: flex;
+  flex-direction: column;
+}
+
+.foto {
+  width: 400px;
+  height: 267px;
+}
+
+#tussentekst {
+  width: 240px;
+  line-height: 18px;
+}
+
+#boventekst {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  margin-top: 0px;
+  width: 240px;
+  line-height: 18px;
+}
+
+img {
+  margin-bottom: 25px;
+}
+
+#foto {
+  display: flex;
+  justify-content: space-evenly;
+  object-fit: none;
+}
