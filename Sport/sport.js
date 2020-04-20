@@ -7,5 +7,5 @@ for (var i = 0; i < sporten.length; i++) {
 }
 
 function addLink(id) {
-  window.location.assign("/Sport/sportItems/" + id + ".html");
+  window.location.assign("../Sport/sportItems/" + id + ".html");
 }

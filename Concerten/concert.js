@@ -7,5 +7,5 @@ for (var i = 0; i < concert.length; i++) {
 }
 
 function addLink(id) {
-  window.location.assign("/Concerten/concert/" + id + ".html");
+  window.location.assign("../Concerten/concert/" + id + ".html");
 }
