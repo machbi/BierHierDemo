@@ -3,7 +3,7 @@
     /*box-sizing: border-box;*/
     margin: 0px;
 }
-.artikelkoptekst{
+#artikelkoptekst{
     box-sizing: border-box;
     font-size: 2em;
    text-align: center;
@@ -18,6 +18,7 @@
 
 }
 article{
+    vertical-align: top;
     width: 25%;
     display: inline-block;
     margin-left: 30px;
