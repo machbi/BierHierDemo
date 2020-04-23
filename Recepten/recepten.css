@@ -2,7 +2,25 @@
     font-family: "Baloo Tamma 2";
     margin: 0px;
 }
+.wrapper {
+margin-left: 15%;
+}
+.recepttekst{
+    padding-left: 5%;
+    display: inline-block;
+    width: 30%;
+}
 
-header {
+.receptfoto{
 
+    margin-left: 5%;
+    vertical-align: top;
+    display: inline-block;
+    width: 54%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.extramarge {
+
+    margin-top: 10%;
 }
